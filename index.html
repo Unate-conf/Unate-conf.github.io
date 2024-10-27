@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- 
+          TODO
+    
+          Upload your Unemployable (or whatever photo you like) to the assets/images folder
+          and change the name of the image below to match the uploaded one
+    
+          Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+    
+          This should be the same across all pages.
+         -->
+    <link rel="icon" href="./assets/images/logo.jpg">
+    <title>Conf4</title>
+    <meta name="description" content="Cycle de conférences à Paul Sabatier.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+    <script defer="" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
+    <style id="atcb-global-style">
+        .atcb-modal-no-scroll {
+            overflow-y: hidden !important;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body.atcb-modal-no-scroll {
+            padding-right: 0px;
+        }
+
+        .atcb-attribution {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script id="atcb-schema-atcb-btn-19" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Marius",
+        "startDate":"2024-04-12T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"3A - G8",
+        "endDate":"2024-04-12T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-18" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Mélissandre",
+        "startDate":"2024-04-12T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"3A - G8",
+        "endDate":"2024-04-12T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-17" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence d'Anaelle",
+        "startDate":"2024-04-12T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"3A - G8",
+        "endDate":"2024-04-12T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-16" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Pierre Pujol",
+        "startDate":"2024-04-09T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"Amphi Maxwell",
+        "endDate":"2024-04-09T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-15" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Candice Bernard",
+        "startDate":"2024-04-05T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"Amphi Schwartz",
+        "endDate":"2024-04-05T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-14" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Candice Bernard",
+        "startDate":"2024-04-02T18:00:00+02:00",
+        "duration":"02:00",
+        "location":"Amphi Schwartz",
+        "endDate":"2024-04-02T20:00:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-13" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence d'Anthony Saint-Criq",
+        "startDate":"2024-03-26T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"Amphi Schwartz (IMT)",
+        "endDate":"2024-03-26T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-12" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Thierry Druot",
+        "startDate":"2024-03-21T18:15:00+01:00",
+        "duration":"01:45",
+        "location":"Amphi Einstein",
+        "endDate":"2024-03-21T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-11" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Carole Rossi",
+        "startDate":"2024-03-19T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"Amphi Einstein",
+        "endDate":"2024-03-19T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-10" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Raphaël",
+        "startDate":"2024-03-15T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"3A-G08",
+        "endDate":"2024-03-15T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-9" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence d'Enzo",
+        "startDate":"2024-03-15T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"3A-G08",
+        "endDate":"2024-03-15T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-8" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Stéphane Lamy",
+        "startDate":"2024-03-12T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"Amphi Einstein",
+        "endDate":"2024-03-12T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-7" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence d'Anthony Muraro",
+        "startDate":"2024-03-05T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"Amphi Schwartz, IMT",
+        "endDate":"2024-03-05T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-6" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Jérôme Cuny",
+        "startDate":"2024-02-27T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"Einstein",
+        "endDate":"2024-02-27T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-5" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Félix",
+        "startDate":"2024-02-16T18:00:00+01:00",
+        "duration":"02:00",
+        "location":"3A - G8",
+        "endDate":"2024-02-16T20:00:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-4" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Cyril Martins",
+        "startDate":"2024-02-13T15:45:00+01:00",
+        "duration":"02:00",
+        "location":"Amphithéâtre Denjoy (U1)",
+        "endDate":"2024-02-13T17:45:00+01:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-3" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Super conférencier",
+        "startDate":"2024-09-01T15:45:00+02:00",
+        "duration":"02:00",
+        "location":"Amphithéâtre Denjoy (U1)",
+        "endDate":"2024-09-01T17:45:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-2" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Super conférencière",
+        "startDate":"2024-09-01T15:45:00+02:00",
+        "duration":"02:00",
+        "location":"Amphithéâtre Denjoy (U1)",
+        "endDate":"2024-09-01T17:45:00+02:00"
+        }</script>
+    <script id="atcb-schema-atcb-btn-1" type="application/ld+json">{
+        "@context":"https://schema.org",
+        "@type":"Event",
+        "eventStatus":"https://schema.org/EventScheduled",
+        "name":"Conférence de Super conférencier",
+        "startDate":"2024-09-01T15:45:00+02:00",
+        "duration":"02:00",
+        "location":"Amphithéâtre Denjoy (U1)",
+        "endDate":"2024-09-01T17:45:00+02:00"
+        }</script>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="./index.html">
+            <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+            <span class="nav-title">Conférence 4</span>
+            <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+        </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+        <!-- PORTFOLIO HEADER -->
+        <div id="portfolio-header">
+            <div id="portfolio-header-image-container">
+                <!-- 
+                TODO
+    
+                - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+                - Change the number to point to your Unemployable & replace the OpenSea link with your own
+                - If you aren't using an Unemployable as your image, remove the entire "a" element
+                -->
+                <img src="./assets/images/presentation.jpg" class="portfolio-header-image">
+                <!--<a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+                <span class="image-caption">Unemployables #1311</span>
+                </a> -->
+            </div>
+
+            <!-- 
+                TODO
+    
+                - Change the main-title to whatver you want
+                - Change the body-text after that to a quick introduction to what you do
+                - Edit the button text if you feel like it. It will link to the projects section below.
+                -->
+            <div id="portfolio-header-text-container">
+                <div class="header-text">
+                    <div class="body-text" align="justify"> Paré(e) à découvrir le domaine de recherche de nos profs
+                        ?<br> Mathématiques, physique et chimie seront à l’honneur. Chaque semaine pendant 3 mois, un(e)
+                        professeur(e) exposera synthétiquement et clairement ce sur quoi il / elle a travaillé. Ce sera
+                        alors l’occasion de voir comment s’est faite et se fait la recherche 👀. Tu pourras ensuite
+                        poser pléthore de questions.<br>
+                        La petite pépite ? Certains de tes camarades se prêtent au jeu! Ils exposeront alors le fruit de
+                        leurs découvertes! Venir aux colloques étudiants sera le moment rêvé pour parler convivialement
+                        et librement entre nous de sujets qui nous passionnent.<br></div>
+                </div>
+                <a class="button" id="my-work-link">
+                    <span class="button-text">Voir les conférences</span>
+                    <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <!-- 
+            TODO
+    
+            - Change the subheader-text to whatever header you want
+            - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+            
+            <div id="about-section">
+            <span class="subheader-text">My Background / About Me</span>
+            <div class="about-section-content">
+                <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
+                <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+            </div>
+            </div>
+        -->
+
+        <!-- PROJECTS / MY WORK SECTION -->
+        <div id="my-work-section">
+            <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+
+
+            <span class="subheader-text">Les conférences -- SAISON 2</span>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <img src="./assets/images/martins.jpg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Les conférences reviennent</div>
+                        <div class="body-text project-card-text">Super conférencier<br>Ajoute l'évènement à ton
+                            calendrier:</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Super conférencier" startdate="2024-09-01"
+                        options="'Apple','Google','iCal'" starttime="15:45" endtime="17:45" timezone="Europe/Paris"
+                        location="Amphithéâtre Denjoy (U1)" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-1"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-1">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/todo.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/images/martins.jpg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Les conférences reviennent</div>
+                        <div class="body-text project-card-text">Super conférencière<br>Ajoute l'évènement à ton
+                            calendrier:</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Super conférencière" startdate="2024-09-01"
+                        options="'Apple','Google','iCal'" starttime="15:45" endtime="17:45" timezone="Europe/Paris"
+                        location="Amphithéâtre Denjoy (U1)" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-2"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-2">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/todo.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/images/martins.jpg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Les conférences reviennent</div>
+                        <div class="body-text project-card-text">Super conférencier<br>Ajoute l'évènement à ton
+                            calendrier:</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Super conférencier" startdate="2024-09-01"
+                        options="'Apple','Google','iCal'" starttime="15:45" endtime="17:45" timezone="Europe/Paris"
+                        location="Amphithéâtre Denjoy (U1)" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-3"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-3">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/todo.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div id="portfolio-header-image-container">
+                <!-- 
+                TODO
+    
+                - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+                - Change the number to point to your Unemployable & replace the OpenSea link with your own
+                - If you aren't using an Unemployable as your image, remove the entire "a" element
+                -->
+                <img src="./assets/images/premiere_annee.jpg" class="portfolio-header-image">
+                <!--<a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+                <span class="image-caption">Unemployables #1311</span>
+                </a> -->
+            </div>
+
+
+
+            <span class="subheader-text">Les conférences -- SAISON 1</span>
+
+            <div class="projects-container">
+                <!-- 
+                TODO
+    
+                This is where the project cards live. Here's a base level project card for you to copy:
+                <div class="project-card">
+                    <img src="./assets/images/IMAGE_NAME" class="project-image">
+                    <div class="project-card-text-container">
+                    <div class="subheader-text project-title">PROJECT_NAME</div>
+                    <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+                    </div>
+                    <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                    <span class="button-text">Read More</span>
+                    <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                    </a>
+                </div>
+    
+                - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                    - IMAGE_NAME: the name of the image file in assets/images
+                    - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                    - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                    - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+                -->
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/martins.jpg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Physique des électrons dans les solides</div>
+                        <div class="body-text project-card-text">Cyril Martins<br>Ajoute l'évènement à ton calendrier:
+                        </div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Cyril Martins" startdate="2024-02-13"
+                        options="'Apple','Google','iCal'" starttime="15:45" endtime="17:45" timezone="Europe/Paris"
+                        location="Amphithéâtre Denjoy (U1)" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-4"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-4">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/martins.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/images/felix.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Petite introduction à la topologie algébrique : groupe
+                            fondamental et application</div>
+                        <div class="body-text project-card-text">Félix Miguet</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Félix" startdate="2024-02-16"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A - G8" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-5"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-5">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/miguet.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/cuny.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Chimie quantique</div>
+                        <div class="body-text project-card-text">Jérôme Cuny</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Jérôme Cuny" startdate="2024-02-27"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Einstein" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-6"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-6">
+                    </add-to-calendar-button>
+
+
+                    <a class="button" href="./project-pages/cuny.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/muraro.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Probabilités</div>
+                        <div class="body-text project-card-text">Anthony Muraro</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence d'Anthony Muraro" startdate="2024-03-05"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Schwartz, IMT" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-7"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-7">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/muraro.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/cremona_book.jpg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Groupe de Cremona</div>
+                        <div class="body-text project-card-text">Stéphane Lamy</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Stéphane Lamy" startdate="2024-03-12"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Einstein" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-8"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-8">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/lamy.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/enzo.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Les problèmes de Hilbert</div>
+                        <div class="body-text project-card-text">Enzo Jorge</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence d'Enzo" startdate="2024-03-15"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A-G08" buttonstyle="date" size="5" lightmode="bodyScheme" atcb-button-id="atcb-btn-9"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-9">
+                    </add-to-calendar-button>
+
+
+                    <a class="button" href="./project-pages/jorge.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/raphael.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Solides de Platon et généralisations</div>
+                        <div class="body-text project-card-text">Raphaël Decan de Chatouville</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Raphaël" startdate="2024-03-15"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A-G08" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-10"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-10">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/ddc.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/rossi.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Nanomatériaux pour applications énergétiques</div>
+                        <div class="body-text project-card-text">Carole Rossi</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Carole Rossi" startdate="2024-03-19"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Einstein" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-11"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-11">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/rossi.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./assets/images/druot.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Un avion écologique, réalité ou fiction ?</div>
+                        <div class="body-text project-card-text">Thierry Druot</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Thierry Druot" startdate="2024-03-21"
+                        options="'Apple','Google','iCal'" starttime="18:15" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Einstein" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-12"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-12">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/druot.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/stcriq.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Topologie géométrique</div>
+                        <div class="body-text project-card-text">Anthony Saint-Criq</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence d'Anthony Saint-Criq" startdate="2024-03-26"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Schwartz (IMT)" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-13"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-13">
+                    </add-to-calendar-button>
+
+
+                    <a class="button" href="./project-pages/st-criq.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/galois.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Théorie de Galois</div>
+                        <div class="body-text project-card-text">Candice Bernard</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Candice Bernard" startdate="2024-04-02"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Schwartz" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-14"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-14">
+                    </add-to-calendar-button>
+
+                    <add-to-calendar-button name="Conférence de Candice Bernard" startdate="2024-04-05"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Schwartz" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-15"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-15">
+                    </add-to-calendar-button>
+
+
+
+                    <a class="button" href="./project-pages/bernard.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+
+
+
+
+                <div class="project-card">
+                    <img src="./assets/images/pujol.png" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Topologie et matière condensée</div>
+                        <div class="body-text project-card-text">Pierre Pujol</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Pierre Pujol" startdate="2024-04-09"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="Amphi Maxwell" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-16"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-16">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/pujol.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/images/anaelle.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Turing et Enigma</div>
+                        <div class="body-text project-card-text">Anaëlle d'Araujo</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence d'Anaelle" startdate="2024-04-12"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A - G8" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-17"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-17">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/daraujo.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./assets/images/melissandre.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Héliosismologie</div>
+                        <div class="body-text project-card-text">Mélissandre de Faget de Casteljau</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Mélissandre" startdate="2024-04-12"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A - G8" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-18"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-18">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/dfdc.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/images/marius.jpeg" class="project-image">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Induction et catégories</div>
+                        <div class="body-text project-card-text">Marius Capelli</div>
+                    </div>
+
+                    <add-to-calendar-button name="Conférence de Marius" startdate="2024-04-12"
+                        options="'Apple','Google','iCal'" starttime="18:00" endtime="20:00" timezone="Europe/Paris"
+                        location="3A - G8" buttonstyle="date" size="5" lightmode="bodyScheme"
+                        atcb-button-id="atcb-btn-19"
+                        style="visibility:visible;opacity:1;position:relative;outline:none !important;"
+                        class="add-to-calendar atcb-light" atcb-last-event="initialization:atcb-btn-19">
+                    </add-to-calendar-button>
+
+                    <a class="button" href="./project-pages/mc.html">
+                        <span class="button-text">Plus d'infos</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon">
+                    </a>
+                </div>
+
+
+                <!-- <div class="project-card">
+                <img src="./assets/images/calmels.png" class="project-image">
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">Structure électronique</div>
+                    <div class="body-text project-card-text">Lionel Calmels</div>
+                </div>
+    
+            <add-to-calendar-button
+                    name="Conférence de Lionel Calmels"
+                    startDate="2024-04-23"
+                    options="'Apple','Google','iCal'"
+                    startTime="18:00"
+                    endTime="20:00"
+                    timeZone="Europe/Paris"
+                    location="Salle à définir"
+                    buttonStyle="date"
+                    size="5"
+                    lightMode="bodyScheme">
+                </add-to-calendar-button>
+            
+                <a class="button" href="./project-pages/calmels.html">
+                    <span class="button-text">Plus d'infos</span>
+                    <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
+                </div>
+        -->
+
+                <!--		
+                <div class="project-card">
+                <img src="./assets/images/visusebastien.jpg" class="project-image">
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">Astérosismologie</div>
+                    <div class="body-text project-card-text">Sébastien Deheuvels</div>
+                </div>
+                
+            <add-to-calendar-button
+                    name="Conférence de Sébastien Deheuvels"
+                    startDate="2024-04-30"
+                    options="'Apple','Google','iCal'"
+                    startTime="18:00"
+                    endTime="20:00"
+                    timeZone="Europe/Paris"
+                    location="Salle à définir"
+                    buttonStyle="date"
+                    size="5"
+                    lightMode="bodyScheme">
+                </add-to-calendar-button>
+                
+                <a class="button" href="./project-pages/deheuvels.html">
+                    <span class="button-text">Plus d'infos</span>
+                    <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
+                </div>
+    
+        -->
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+            TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+    
+            This should be the same across all pages.
+            -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/laconf4_ut3/">
+            <img src="./assets/icons/instagram.svg" class="footer-icon">
+        </a>
+        <!-- 
+            TODO - Change the email after "mailto" to your contact email 
+            
+            This should be the same across all pages.
+            -->
+        <a class="icon-link" href="mailto:mathias.garnier@univ-tlse3.fr">
+            <img src="./assets/icons/mail.svg" class="footer-icon">
+        </a>
+
+        <p>
+            <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-240818-5"
+                    border="0"></a>
+        </p>
+    </div>
+</body>
+
+</html>
